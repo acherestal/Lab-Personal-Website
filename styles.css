@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #1e1e1e;
+    color: #e0e0e0; 
+}
+
+/* Header */
+header {
+    background-color: #121212;
+    color: #ffffff;
+    padding: 2em 1em;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.3em;
+    font-size: 2.2em;
+    color: #f5f5f5;
+}
+
+header h2 {
+    margin-top: 0;
+    font-weight: normal;
+    font-size: 1.2em;
+    color: #b0b0b0; 
+    margin-bottom: 1em;
+}
+
+header nav a.github-btn {
+    display: inline-block;
+    background-color: #282828; 
+    color: #1db954; 
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    border: 2px solid #1db954;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header nav a.github-btn:hover {
+    background-color: #1db954;
+    color: #121212;
+}
+
+/* Sections */
+section {
+    padding: 2em 1em;
+    max-width: 800px;
+    margin: 2em auto;
+    background-color: #2a2a2a; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+section h2 {
+    margin-bottom: 1em;
+    color: #1db954; 
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 1.5em;
+}
+
+/* Projects section */
+.project {
+    margin-bottom: 1.5em;
+}
+
+.project a {
+    color: #1db954;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1.5em 1em;
+    background-color: #121212; 
+    color: #e0e0e0;
+}
+
+footer .social-links {
+    margin-top: 0.5em;
+}
+
+footer .social-links a {
+    color: #1db954; 
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 0.5em;
+    transition: color 0.3s;
+}
+
+footer .social-links a:hover {
+    color: #ffffff;
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+    body {
+        font-size: 0.95em;
+    }
+
+    section {
+        padding: 1.5em 1em;
+        margin: 1em;
+        border-radius: 8px;
+    }
+
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    header h2 {
+        font-size: 1em;
+    }
+
+    header nav a.github-btn {
+        padding: 0.4em 0.8em;
+        font-size: 0.9em;
+    }
+
+    .project {
+        margin-bottom: 1em;
+    }
+
+    footer {
+        padding: 1em;
+    }
+
+    footer .social-links a {
+        margin: 0 0.3em;
+        font-size: 0.9em;
+    }
+}
+
+
