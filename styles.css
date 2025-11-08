@@ -44,6 +44,20 @@ header nav a.github-btn:hover {
     color: #121212;
 }
 
+.header-image {
+    max-width: 800px;       
+    margin: 1em auto;       
+    background-color: #2a2a2a; 
+    border-radius: 10px;    
+}
+
+.header-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;    /* match container */
+}
+
 /* Sections */
 section {
     padding: 2em 1em;
